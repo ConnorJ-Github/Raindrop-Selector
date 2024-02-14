@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundImage{
+    height: 250px;
+}
+
+.background-Image {
+
+    height: 300px;
+
+    mask-repeat:no-repeat;
+
+    mask-image: url(tearDrop-Fill.svg);
+
+    mask-position: center bottom;
+
+    mask-size: 250px 250px;
+}
